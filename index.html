@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Dice Game</title>
+</head>
+	
+<body>
+	<div class="hover start">
+		<div>
+			<h1 class="hover-header">Guess the number and roll the dice</h1>
+			<h3>The result is the product of the 2 value</h3>
+			<input class="guess" type="text" value="" placeholder="number between 1-36">
+			<button class="startbtn">Roll</button>
+		</div>
+	</div>
+	<div class="container">
+	  <header>
+			<h1>Portfolio Project</h1>
+			<h3>Dice Game</h3>
+		</header>
+		<div class="dice-container center">
+		  <img class="dice" src="img/kocka1.jpg" alt="dice">
+		  <img class="dice" src="img/kocka1.jpg" alt="dice">
+		</div>
+	</div>
+	<audio autoplay loop volume="0.2">
+		<source src="audio/music.mp3" type="audio/mp3">
+	</audio>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="js/dice.js"></script>
+</body>
+</html>
