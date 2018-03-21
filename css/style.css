@@ -95,9 +95,9 @@ header {
 /* ---------------------- DICE -------------------------- */
 
 .dice-container .dice {
-	dispaly: block;
+	display: block;
 	max-width: 70px;
-	max-height: 368px;
+	max-height: 70px;
 	flex: 1 100%;
 	border-radius: 5px;
 }
@@ -114,12 +114,14 @@ dice:nth-child(1) {
 @media (min-width: 320px) and (max-width: 575px) {
 	.dice-container .dice{
 		max-width: 125px;
+		max-height: 125px;
 	}
 }
 
 @media (min-width: 398px) and (max-width: 910px) {
 	.dice-container .dice{
-		max-width: 125px;
+		max-width: 140px;
+		max-height: 140px;
 	}
 	
 	 header h1 {
@@ -134,7 +136,8 @@ dice:nth-child(1) {
 @media (min-width: 911px){
 	
 	.dice-container .dice{
-		max-width: 150px;
+		max-width: 175px;
+		max-height: 175px;
 	}
 	
 	 header h1 {
@@ -150,6 +153,7 @@ dice:nth-child(1) {
 	
 	.dice-container .dice{
 		max-width: 250px;
+		max-height: 250px;
 	}
 }
 
